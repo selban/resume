@@ -1,19 +1,65 @@
 /* font-family: "Roboto", sans-serif; */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
+
+.header{
+    display: flex;
+    gap: 50px;
+}
+
+.header__info{
+    padding-top: 20px;
+}
+
+.header__info-text{
+    margin-top: 10px;
+}
+
+.header__social{
+    padding-top: 15px;
+}
+
+.cards{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.card{
+    width: 600px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    border-radius: 25px;
+    background-color: bisque;
+}
+
+
 a{
     text-decoration: none;
     color: #000;
 }
 
-.header{
-    display: flex;
-    gap: 40px;
-    border: 2px solid #000 ;
-    background-color: cadetblue;
+img{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+.footer{
+    border: 1px solid #666;
+    border-radius: 25px;
+    padding: 10px 30px;
+    width: 600px;
+}
